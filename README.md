@@ -1,5 +1,3 @@
-# mlisp
- 
 # mLisp. A minimal version of the programming language Lisp written in Rust.
  
 Core functionalities of mLisp
