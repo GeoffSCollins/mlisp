@@ -30,7 +30,7 @@ cat program1.lisp
 )
 ```
 
-cargo run progam1.txt
+cargo run progam1.lisp
 ```
 4 0.4 Correct_Answer
 ```
