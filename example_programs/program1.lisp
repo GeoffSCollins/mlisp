@@ -1,0 +1,13 @@
+(
+    (let x (+ 3(- 5 3 1)))
+    (print x)
+    (let zeta 100)
+    (let early (/ zeta 10))
+    (let tmp (/ x early))
+    (let y tmp)
+    (print y)
+    (if (= 0.4 y) 
+        (print Correct_Answer)
+        (print Incorrect)
+    )
+)
