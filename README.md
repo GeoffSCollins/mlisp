@@ -10,7 +10,7 @@ Core functionalities of mLisp
 - Logical operations and, or, and not can be used. For example, (and True True False) will compute False as all arguments must be True. 
 - Logical comparison operators = and != can be used. For example, (= True False True) will return False.
 - Basic math operations (+, -, *, /) can be used. For example, (+ 10 4 6 3) is equivalent to 10 + 4 + 6 + 3 = 23. Multiplication and division follow the same pattern. For example, (/ 40 10 4) will compute 1. 
-- Values, symbols, and functions can be printed to stdout using the print function. For example, (print func) will print ì<func-object: func>î and (print x) will print ìxî.
+- Values, symbols, and functions can be printed to stdout using the print function. For example, (print func) will print ‚Äú<func-object: func>‚Äù and (print x) will print ‚Äúx‚Äù.
 
 
 Example programs:
@@ -33,4 +33,6 @@ cat program1.lisp
 ```
 
 cargo run progam1.txt
-4 0.4
+```
+4 0.4 Correct_Answer
+```
